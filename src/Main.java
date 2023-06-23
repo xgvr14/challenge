@@ -18,12 +18,18 @@ public class Main {
         System.out.println("Please text the right answer A) B) or C) . Please keep the answer format : capsletter + ) with no space between");
         String answer = userInput.nextLine();
         System.out.println("Answer is " + answer);
+        if (answer.equals(correctAnswer)) {
+            System.out.println("You are right!");
+
+        } else {
+            System.out.println("Please try again, answer is wrong or you didn't respect the given format for the answer");
+        }
 
 
 
 
 
 
-        System.out.println("Hello world!");
+
     }
 }
